@@ -172,6 +172,39 @@ build Section5_3.exe: CXX_EXECUTABLE_LINKER__Section5_3_Debug CMakeFiles/Section
   TARGET_IMPLIB = libSection5_3.dll.a
   TARGET_PDB = Section5_3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Section5_4
+
+
+#############################################
+# Order-only phony target for Section5_4
+
+build cmake_object_order_depends_target_Section5_4: phony || CMakeFiles/Section5_4.dir
+
+build CMakeFiles/Section5_4.dir/Basic_Input.cpp.obj: CXX_COMPILER__Section5_4_Debug H$:/C++/New_Experiment/Section5/Basic_Input.cpp || cmake_object_order_depends_target_Section5_4
+  DEP_FILE = CMakeFiles\Section5_4.dir\Basic_Input.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Section5_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Section5_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Section5_4
+
+
+#############################################
+# Link the executable Section5_4.exe
+
+build Section5_4.exe: CXX_EXECUTABLE_LINKER__Section5_4_Debug CMakeFiles/Section5_4.dir/Basic_Input.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Section5_4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Section5_4.exe
+  TARGET_IMPLIB = libSection5_4.dll.a
+  TARGET_PDB = Section5_4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +239,8 @@ build Section5_2: phony Section5_2.exe
 
 build Section5_3: phony Section5_3.exe
 
+build Section5_4: phony Section5_4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build Section5_3: phony Section5_3.exe
 #############################################
 # Folder: H:/C++/New_Experiment/Section5/cmake-build-debug
 
-build all: phony Section5.exe Section5_1.exe Section5_2.exe Section5_3.exe
+build all: phony Section5.exe Section5_1.exe Section5_2.exe Section5_3.exe Section5_4.exe
 
 # =============================================================================
 # Built-in targets
