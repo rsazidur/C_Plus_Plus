@@ -1,10 +1,15 @@
 # ninja log v5
-1	282	7008248535547838	CMakeFiles/Section5.dir/main.cpp.obj	5cad01305b7b619a
 289	364	7008274405072139	Section5_1.exe	9cb73c7b7a29b993
-280	350	7008274498743901	Section5.exe	2b4df31c2ddb6759
+1	282	7008248535547838	CMakeFiles/Section5.dir/main.cpp.obj	5cad01305b7b619a
 0	293	7008263175219905	CMakeFiles/Section5_0.dir/Comments.cpp.obj	8bb9fe85dd57e806
+280	350	7008274498743901	Section5.exe	2b4df31c2ddb6759
 293	431	7008263176569610	Section5_0.exe	b9e5994025de2ea5
-1	288	7008274404343156	CMakeFiles/Section5_1.dir/using_namespace.cpp.obj	602fb58424aaa5d6
-0	280	7008274498064197	CMakeFiles/Section5.dir/without_namespace.cpp.obj	680abc2a6f07343f
 0	298	7008280508481383	CMakeFiles/Section5_2.dir/using_qualified_namespace.cpp.obj	3751b2096bf570b4
+1	288	7008274404343156	CMakeFiles/Section5_1.dir/using_namespace.cpp.obj	602fb58424aaa5d6
+280	350	7008299443491007	Section5_3.exe	2d5c77f6639f6fce
+0	280	7008274498064197	CMakeFiles/Section5.dir/without_namespace.cpp.obj	680abc2a6f07343f
 298	381	7008280509279891	Section5_2.exe	a1e1938fcca88236
+2	280	7008299442814869	CMakeFiles/Section5_3.dir/Basic_Input_Output.cpp.obj	f6e238210edab9b
+0	124	7008300109915738	build.ninja	d477e0c61b2a67f5
+0	276	7008300113185701	CMakeFiles/Section5_3.dir/Basic_Output.cpp.obj	c7c4824609342923
+276	346	7008300113859488	Section5_3.exe	8d7147312b3408f1
