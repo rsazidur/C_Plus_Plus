@@ -1,7 +1,6 @@
 # ninja log v5
-2	144	7008201731204031	build.ninja	70e3e34ef6056d14
-3	320	7007714838772636	CMakeFiles/FirstProgram.dir/main.cpp.obj	8f69ab5b05b597c7
-320	391	7007714839453236	FirstProgram.exe	a8e4f55ade2720ab
-2	64	7008201818990751	CMakeFiles/FirstProgram.dir/Section_Challenge.cpp.obj	67a95c6769b504a1
+0	134	7008233836692982	build.ninja	70e3e34ef6056d14
 7	295	7008201821307863	CMakeFiles/FirstProgram.dir/main.cpp.obj	8f69ab5b05b597c7
-295	433	7008201822658548	FirstProgram.exe	ecfc622976822513
+3	83	7008233686922010	FirstProgram.exe	a8e4f55ade2720ab
+2	314	7008232512304895	CMakeFiles/FirstProgram.dir/Section_Challenge.cpp.obj	67a95c6769b504a1
+2	293	7008233904597485	CMakeFiles/FirstProgram.dir/Challenge.cpp.obj	5818a431e976cd26
