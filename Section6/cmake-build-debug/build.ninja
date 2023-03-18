@@ -73,6 +73,72 @@ build Section6.exe: CXX_EXECUTABLE_LINKER__Section6_Debug CMakeFiles/Section6.di
   TARGET_IMPLIB = libSection6.dll.a
   TARGET_PDB = Section6.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Section6_1
+
+
+#############################################
+# Order-only phony target for Section6_1
+
+build cmake_object_order_depends_target_Section6_1: phony || CMakeFiles/Section6_1.dir
+
+build CMakeFiles/Section6_1.dir/Constants.cpp.obj: CXX_COMPILER__Section6_1_Debug H$:/C++/New_Experiment/Section6/Constants.cpp || cmake_object_order_depends_target_Section6_1
+  DEP_FILE = CMakeFiles\Section6_1.dir\Constants.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Section6_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Section6_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Section6_1
+
+
+#############################################
+# Link the executable Section6_1.exe
+
+build Section6_1.exe: CXX_EXECUTABLE_LINKER__Section6_1_Debug CMakeFiles/Section6_1.dir/Constants.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Section6_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Section6_1.exe
+  TARGET_IMPLIB = libSection6_1.dll.a
+  TARGET_PDB = Section6_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Section6_2
+
+
+#############################################
+# Order-only phony target for Section6_2
+
+build cmake_object_order_depends_target_Section6_2: phony || CMakeFiles/Section6_2.dir
+
+build CMakeFiles/Section6_2.dir/Constants_Best_Practice.cpp.obj: CXX_COMPILER__Section6_2_Debug H$:/C++/New_Experiment/Section6/Constants_Best_Practice.cpp || cmake_object_order_depends_target_Section6_2
+  DEP_FILE = CMakeFiles\Section6_2.dir\Constants_Best_Practice.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Section6_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Section6_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Section6_2
+
+
+#############################################
+# Link the executable Section6_2.exe
+
+build Section6_2.exe: CXX_EXECUTABLE_LINKER__Section6_2_Debug CMakeFiles/Section6_2.dir/Constants_Best_Practice.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Section6_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Section6_2.exe
+  TARGET_IMPLIB = libSection6_2.dll.a
+  TARGET_PDB = Section6_2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +167,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Section6: phony Section6.exe
 
+build Section6_1: phony Section6_1.exe
+
+build Section6_2: phony Section6_2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +179,7 @@ build Section6: phony Section6.exe
 #############################################
 # Folder: H:/C++/New_Experiment/Section6/cmake-build-debug
 
-build all: phony Section6.exe
+build all: phony Section6.exe Section6_1.exe Section6_2.exe
 
 # =============================================================================
 # Built-in targets
