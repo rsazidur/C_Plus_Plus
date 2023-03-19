@@ -139,6 +139,39 @@ build Section6_2.exe: CXX_EXECUTABLE_LINKER__Section6_2_Debug CMakeFiles/Section
   TARGET_IMPLIB = libSection6_2.dll.a
   TARGET_PDB = Section6_2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Section6_3
+
+
+#############################################
+# Order-only phony target for Section6_3
+
+build cmake_object_order_depends_target_Section6_3: phony || CMakeFiles/Section6_3.dir
+
+build CMakeFiles/Section6_3.dir/Section6_Challenge.cpp.obj: CXX_COMPILER__Section6_3_Debug H$:/C++/New_Experiment/Section6/Section6_Challenge.cpp || cmake_object_order_depends_target_Section6_3
+  DEP_FILE = CMakeFiles\Section6_3.dir\Section6_Challenge.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Section6_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Section6_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Section6_3
+
+
+#############################################
+# Link the executable Section6_3.exe
+
+build Section6_3.exe: CXX_EXECUTABLE_LINKER__Section6_3_Debug CMakeFiles/Section6_3.dir/Section6_Challenge.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Section6_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Section6_3.exe
+  TARGET_IMPLIB = libSection6_3.dll.a
+  TARGET_PDB = Section6_3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build Section6_1: phony Section6_1.exe
 
 build Section6_2: phony Section6_2.exe
 
+build Section6_3: phony Section6_3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build Section6_2: phony Section6_2.exe
 #############################################
 # Folder: H:/C++/New_Experiment/Section6/cmake-build-debug
 
-build all: phony Section6.exe Section6_1.exe Section6_2.exe
+build all: phony Section6.exe Section6_1.exe Section6_2.exe Section6_3.exe
 
 # =============================================================================
 # Built-in targets
